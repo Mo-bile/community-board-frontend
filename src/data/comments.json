@@ -1,0 +1,29 @@
+{
+  "1": [
+    {
+      "id": 1,
+      "postId": 1,
+      "content": "첫 번째 게시글에 대한 댓글입니다.",
+      "author": "commenter1",
+      "createdAt": "2024-01-01T13:00:00Z"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "content": "첫 번째 게시글에 대한 두 번째 댓글입니다.",
+      "author": "commenter2",
+      "createdAt": "2024-01-01T14:30:00Z"
+    }
+  ],
+  "2": [
+    {
+      "id": 3,
+      "postId": 2,
+      "content": "두 번째 게시글에 대한 댓글입니다.",
+      "author": "commenter3",
+      "createdAt": "2024-01-02T15:00:00Z"
+    }
+  ],
+  "3": []
+}
+

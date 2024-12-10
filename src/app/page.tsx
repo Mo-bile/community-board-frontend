@@ -1,8 +1,6 @@
-"use client";
-
 import styled from "styled-components";
 import Header from "../components/Header";
-import PostList from "../components/PostList";
+import PostList from "../components/CommentList";
 
 const HomeContainer = styled.main`
   max-width: 800px;
@@ -11,14 +9,13 @@ const HomeContainer = styled.main`
 `;
 
 const Title = styled.h1`
-  color: #3498db;
-  margin-bottom: 1.5rem;
+  font-size: 2em;
+  margin-bottom: 1em;
 `;
 
 const Description = styled.p`
-  font-size: 1.1rem;
-  color: #555;
-  margin-bottom: 2rem;
+  font-size: 1.2em;
+  margin-bottom: 2em;
 `;
 
 export default function Home() {
